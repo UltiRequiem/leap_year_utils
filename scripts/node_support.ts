@@ -5,5 +5,5 @@ buildPackage({
   description: "Utilities for working with Leap Years",
   homepage: "https://leap-year-utils.js.org",
   keywords: ["leap", "year", "date"],
-  version: "1.0.0",
+  version: "0.1.0",
 });
