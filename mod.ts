@@ -5,7 +5,7 @@ export function leapYearsInRange(
   config: {
     min?: number;
     max?: Date | number | string;
-  } = {}
+  } = {},
 ) {
   const { min = 0, max = new Date() } = config;
 
