@@ -8,7 +8,9 @@
 ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fleap_years_utils%2Fmod.ts)
 [![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fleap_years_utils%2Fmod.ts)](https://deno.land/x/leap_year)
 
-Utils around [ultirequiem/leap-year](https://github.com/UltiRequiem/leap-year).
+> [ultirequiem/leap-year](https://github.com/UltiRequiem/leap-year).
+
+Utilities for working with Leap Years.
 
 ## Usage
 
