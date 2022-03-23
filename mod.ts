@@ -1,7 +1,7 @@
 import { isLeapYear } from "https://deno.land/x/leap_year@v2.0.0/mod.ts";
 import { parseDateLike } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
 
-export function generateLeapYear(
+export function leapYearsInRange(
   config: {
     min?: number;
     max?: Date | number | string;

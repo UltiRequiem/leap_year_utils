@@ -1,50 +1,37 @@
 # leap_years_utils
 
-[![CI](https://github.com/UltiRequiem/leap_years_utils/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap_years_utils/actions/workflows/ci.yaml)
-[![codecov](https://codecov.io/gh/ultirequiem/leap_years_utils/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap_years_utils)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_years_utils/mod.ts)
+[![CI](https://github.com/UltiRequiem/leap_year_utils/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap_year_utils/actions/workflows/ci.yaml)
+[![CodeCov](https://codecov.io/gh/ultirequiem/leap_years_utils/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap_years_utils)
+[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_years_utils/mod.ts)
 
 ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fleap_years_utils%2Fmod.ts)
 ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fleap_years_utils%2Fmod.ts)
 [![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fleap_years_utils%2Fmod.ts)](https://deno.land/x/leap_year)
 
-Check if a year is a [leap year](https://en.wikipedia.org/wiki/leap_years_utils).
+Utils around [ultirequiem/leap-year](https://github.com/UltiRequiem/leap-year).
 
 ## Usage
 
 ### [Deno 🚀](https://deno.land/x/leap_years_utils)
 
 ```javascript
-import { isLeapYear } from "https://deno.land/x/leap_years_utils/mod.ts";
+import { leapYearsInRange } from "https://deno.land/x/leap_years_utils/mod.ts";
 
-isLeapYear(2014); //=> false
-isLeapYear(2016); //=> true
-isLeapYear("6 October 2006 00:07:00 GMT"); //=> false
-isLeapYear("2000"); //=> false
-isLeapYear(new Date(2016, 1, 1)); //=> true
+leapYearsInRange({ min: 2000, max: 2020 }); //=> [ 2004, 2008, 2012, 2016, 2020]
 ```
 
 ### [Node.js 🐢](https://www.npmjs.com/package/leap-years-utils)
 
 ```typescript
-import { isLeapYear } from "leap-years-utils";
+import { leapYearsInRange } from "leap-years-utils";
 ```
 
 ### [Browser 🕸](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
-that you like.
-
-As an example, for
-[type module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-👇
-
-- [SkyPack](https://cdn.skypack.dev/leap-years-utils)
-
-Or for a plain
-[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) 🦔
-
-- [jsdelivr](https://cdn.jsdelivr.net/npm/leap-years-utils)
+Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+▶ [SkyPack](https://cdn.skypack.dev/leap-year-utils) _/_
+[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
+[JSDelivr](https://cdn.jsdelivr.net/npm/leap-year-utils).
 
 The API is the same on all this platforms.
 
