@@ -46,6 +46,17 @@ The API is the same on all this platforms.
 
 If you have an idea for a new utility make an issue or a pull request please!
 
+## Related
+
+- [leap_year](https://github.com/UltiRequiem/leap_year_utils): The core of this package.
+
+- [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a
+  number/string/date to a number/string/date.
+
+- [leap-year-api](https://github.com/UltiRequiem/leap-year-api): A REST API to
+  know if a year is leap or not.
+
+
 ## Support
 
 Open an Issue, I will check it a soon as possible 👀
