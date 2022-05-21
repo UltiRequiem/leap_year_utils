@@ -1,16 +1,9 @@
 # leap_years_utils
 
-[![CI](https://github.com/UltiRequiem/leap_year_utils/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/leap_year_utils/actions/workflows/ci.yaml)
 [![CodeCov](https://codecov.io/gh/ultirequiem/leap_years_utils/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap_years_utils)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_years_utils/mod.ts)
 
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fleap_years_utils%2Fmod.ts)
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fleap_years_utils%2Fmod.ts)
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fleap_years_utils%2Fmod.ts)](https://deno.land/x/leap_year)
-
-> Using [ultirequiem/leap-year](https://github.com/UltiRequiem/leap-year)
-
-Utilities for working with Leap Years.
+Utilities for working with [Leap Years](https://github.com/UltiRequiem/leap-year).
 
 ## Usage
 
@@ -49,7 +42,7 @@ If you have an idea for a new utility make an issue or a pull request please!
 ## Related
 
 - [leap_year](https://github.com/UltiRequiem/leap_year_utils): The core of this
-  package.
+  module.
 
 - [parse_datelike](https://github.com/UltiRequiem/parse_datelike): Parse a
   number/string/date to a number/string/date.
