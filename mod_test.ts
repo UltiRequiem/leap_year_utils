@@ -6,9 +6,9 @@ import {
 import { leapYearsInRange } from "./mod.ts";
 
 Deno.test("Main", () => {
-  assert(Array.isArray(leapYearsInRange()));
+  assert(Array.isArray(leapYearsInRange({ min: 2000, max: 2020 })));
 
-  leapYearsInRange().forEach((year) => {
+  leapYearsInRange({ min: 10, max: 2020 }).forEach((year) => {
     assert(year % 4 === 0);
     assertEquals(typeof year, "number");
   });

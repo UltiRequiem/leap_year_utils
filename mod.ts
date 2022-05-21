@@ -9,7 +9,7 @@ export interface LeapYearsInRangeOptions {
 export function leapYearsInRange({
   min = 0,
   max = 0,
-}: LeapYearsInRangeOptions) {
+}: LeapYearsInRangeOptions = {}) {
   const maxYear = parseDateLike(max);
 
   const leapYears = [];
