@@ -15,7 +15,7 @@ The API is the same on all this platforms ✔️
 ```javascript
 import { leapYearsInRange } from "https://deno.land/x/leap_year_utils/mod.ts";
 
-leapYearsInRange({ min: 2000, max: 2020 }); //=> [ 2004, 2008, 2012, 2016, 2020]
+leapYearsInRange(2000, 2020); //=> [ 2004, 2008, 2012, 2016, 2020]
 ```
 
 ### [Node.js 🐢🚀](https://npmjs.com/package/leap-year-utils)

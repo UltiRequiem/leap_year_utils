@@ -4,15 +4,10 @@ import {
   parseDateLike,
 } from "https://deno.land/x/parse_datelike@0.0.1/mod.ts";
 
-export interface LeapYearsInRangeOptions {
-  min?: DateLike;
-  max?: DateLike;
-}
-
-export function leapYearsInRange({
-  min = 0,
-  max = 0,
-}: LeapYearsInRangeOptions = {}) {
+export function leapYearsInRange(
+  min: DateLike = 0,
+  max: DateLike = new Date(),
+) {
   const maxYear = parseDateLike(max);
   const minYear = parseDateLike(min);
 
