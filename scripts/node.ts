@@ -1,4 +1,4 @@
-import { buildPackage } from "https://deno.land/x/ultirequiem@0.0.12/node_support.ts";
+import { buildPackage } from "https://deno.land/x/ultirequiem@0.0.15/node.ts";
 
 buildPackage({
   repoName: "leap_year_utils",
@@ -6,5 +6,5 @@ buildPackage({
   description: "Utilities for working with Leap Years",
   homepage: "http://ulti.js.org/leap_year_utils",
   keywords: ["leap", "year", "date"],
-  version: "0.1.1",
+  version: "0.1.3",
 });
