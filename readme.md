@@ -1,6 +1,6 @@
 # leap_years_utils
 
-[![CodeCov](https://codecov.io/gh/ultirequiem/leap_years_utils/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/leap_years_utils)
+[![CodeCov](https://codecov.io/gh/UltiRequiem/leap_year_utils/branch/main/graph/badge.svg)](https://app.codecov.io/gh/UltiRequiem/leap_year_utils)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/leap_years_utils/mod.ts)
 
 Utilities for working with [Leap Years](https://github.com/UltiRequiem/leap-year).
