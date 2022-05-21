@@ -8,7 +8,9 @@ Utilities for working with
 
 ## Usage
 
-### [Deno 🚀](https://deno.land/x/leap_year_utils)
+The API is the same on all this platforms ✔️
+
+### [Deno 🦕](https://deno.land/x/leap_year_utils)
 
 ```javascript
 import { leapYearsInRange } from "https://deno.land/x/leap_year_utils/mod.ts";
@@ -16,7 +18,7 @@ import { leapYearsInRange } from "https://deno.land/x/leap_year_utils/mod.ts";
 leapYearsInRange({ min: 2000, max: 2020 }); //=> [ 2004, 2008, 2012, 2016, 2020]
 ```
 
-### [Node.js 🐢](https://www.npmjs.com/package/leap-year-utils)
+### [Node.js 🐢🚀](https://npmjs.com/package/leap-year-utils)
 
 ```javascript
 import { leapYearsInRange } from "leap-year-utils";
@@ -28,8 +30,6 @@ Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 ▶ [SkyPack](https://cdn.skypack.dev/leap-year-utils) _/_
 [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
 [JSDelivr](https://cdn.jsdelivr.net/npm/leap-year-utils).
-
-The API is the same on all this platforms.
 
 ## Documentation
 
